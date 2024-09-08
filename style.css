@@ -33,7 +33,7 @@ body{
     clear: both;
     width: 100%;
     box-sizing: border-box;
-    height: 600px;
+    height: 500px;
 }
 
 .input{
@@ -89,6 +89,22 @@ span a{
 }
 
 .googleIcon{
+    width: 40px;
+    height: 40px;
+}
+.otherAuthsDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.otherAuthsSubDiv{
+    margin: 10px;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.otherAuthIcon{
     width: 40px;
     height: 40px;
 }

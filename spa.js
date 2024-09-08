@@ -15,6 +15,7 @@ $(".signup").click(function(){
     $(".signup").css("background", "#fff");
 });
 
+/*
 $(".btn").click(function(){
     $(".input").val("");
-});
+});*/

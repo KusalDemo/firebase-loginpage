@@ -13,24 +13,33 @@
         <div class="login">Log In</div>
 
         <div class="signup-form">
-            <input type="text" placeholder="Your Email Address" class="input"><br/>
-            <input type="text" placeholder="Choose a Username" class="input"><br/>
-            <input type="password" placeholder="Choose a Password" class="input"><br/>
+            <input type="email" id="emailSignUp" placeholder="Your Email Address" class="input"><br/>
+            <input type="text" id="userNameSignUp" placeholder="Choose a Username" class="input"><br/>
+            <input type="password"  id="passwordSignUp" placeholder="Choose a Password" class="input"><br/>
             <div class="btn" id="btnSignUp">Create account</div>
-            <div class="btn" id="btnGoogleSignUp"><img src="assets/images/icons/icons8-google-48.png" class="googleIcon" alt="Google Icon">SignUp with Google</div>
+            <div class="otherAuthsDiv">
+                <div class="otherAuthsSubDiv" id="btnGoogleSignUp"><img src="assets/images/icons/icons8-google-48.png" class="otherAuthIcon" alt="Google Icon"></div>
+                <div class="otherAuthsSubDiv" id="btnGitHubSignUp"><img src="assets/images/icons/icons8-github-60.png" class="otherAuthIcon" alt="Google Icon"></div>
+                <div class="otherAuthsSubDiv" id="btnFacebookSignUp"><img src="assets/images/icons/icons8-facebook-48.png" class="otherAuthIcon" alt="FaceBook Icon"></div>
+            </div>
         </div>
 
         <div class="login-form">
-            <input type="text" placeholder="Email or Username" class="input"><br/>
-            <input type="password" placeholder="Password" class="input"><br/>
+            <input type="text" id="emailLogin" placeholder="Email or Username" class="input"><br/>
+            <input type="password" id="passwordLogin" placeholder="Password" class="input"><br/>
             <div class="btn" id="btnSignIn">log in</div>
-            <div class="btn" id="btnGoogleLogin"><img src="assets/images/icons/icons8-google-48.png" class="googleIcon" alt="Google Icon">Login with Google</div>
-            <span><a href="#">I forgot my username or password.</a></span>
+            <div class="otherAuthsDiv">
+                <div class="otherAuthsSubDiv" id="btnGoogleLogin"><img src="assets/images/icons/icons8-google-48.png" class="otherAuthIcon" alt="Google Icon"></div>
+                <div class="otherAuthsSubDiv" id="btnGitHubLogin"><img src="assets/images/icons/icons8-github-60.png" class="otherAuthIcon" alt="Google Icon"></div>
+                <div class="otherAuthsSubDiv" id="btnFacebookLogin"><img src="assets/images/icons/icons8-facebook-48.png" class="otherAuthIcon" alt="FaceBook Icon"></div>
+            </div>
         </div>
     </div>
 </div>
 <script src="assets/lib/jquery-3.7.1.min.js"></script>
 <script src="spa.js"></script>
 <script src="googleLogin.js" defer type="module"></script>
+<script src="githubLogin.js" defer type="module"></script>
+<script src="emailLogin.js" defer type="module"></script>
 </body>
 </html>
